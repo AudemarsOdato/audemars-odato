@@ -47,7 +47,7 @@ h1 {
         padding: 16px 32px;
         border-radius: 30px;
         background-color: var(--purple);
-        color: #fae0ff;
+        color: #ffffff;
         font-weight: 500;
         border: none;
 }
@@ -148,4 +148,30 @@ h1 {
 .contact-section a {
         color: white;
         font-weight: 500;
+}
+
+@media (min-width: 700px) {
+        body {
+                max-width: 850px;
+                margin: auto;
+        }
+        .services {
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+        }
+        .service-card {
+                width: 30%;
+                max-width: 600px;
+                padding: 20px 30px 20px 30px;
+                display: block;
+                height: 150px;
+        }
+        .service-card .text-container {
+                width: 100%;
+        }
+        .service-card .icon-container {
+                display: none;
+        }
 }
