@@ -1,16 +1,18 @@
-import Header from "./components/Header"
-import Contact from "./sections/Contact"
-import Hero from "./sections/Hero"
-import Services from "./sections/Services"
+import Profile from './components/Profile'
+import Objective from './components/Objective'
+import Education from './components/Education'
+import Skills from './components/Skills'
+import Interests from './components/Interests'
 
 export default function App() {
 
         return (
                 <>
-                        <Header />
-                        <Hero />
-                        <Services />
-                        <Contact />
+                        <Profile />
+                        <Objective />
+                        <Education />
+                        <Skills />
+                        <Interests />
                 </>
         )
 }
