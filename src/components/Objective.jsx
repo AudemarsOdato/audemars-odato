@@ -5,7 +5,7 @@ export default function Objective() {
                 <section className="row">
                         <h2>Objective</h2>
                         <hr />
-                        <p>To obtain a part-time job and invest valuable time in gaining experience and learning new skills.</p>
+                        <p>To obtain a Web Development job and invest valuable time in gaining experience and learning new skills.</p>
                 </section>
         )
 }

@@ -14,12 +14,12 @@ body {
 
 header {
         display: flex;
-        gap: 16px;
+        gap: 8px;
 }
 
 .profile {
         width: 180px;
-        width: 180px;
+        height: 180px;
 }
 
 .profile-details {
@@ -75,3 +75,5 @@ span {
         display: flex;
         justify-content: space-between;
 }
+
+/* add media for mobile */
