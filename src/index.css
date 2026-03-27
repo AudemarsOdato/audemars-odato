@@ -77,3 +77,18 @@ span {
 }
 
 /* add media for mobile */
+
+@media (max-width: 450px) {
+        header {
+                display: block;
+                text-align: center;
+        }
+
+        .profile {
+                display: inline-block;
+        }
+
+        .profile-details {
+                display: inline-block;
+        }
+}
