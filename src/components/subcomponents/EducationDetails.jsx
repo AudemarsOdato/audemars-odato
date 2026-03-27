@@ -8,7 +8,7 @@ export default function EducationDetails(props) {
                                 <p>{props.gradeDetails}</p>
                                 <p>{props.date}</p>
                         </div>
-                        <p>{props.course}</p>
+                        <p className="course">{props.course}</p>
                         {props.addDetails &&
                                 <p>{props.addDetails}</p>
                         }
